@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jockey+One&display=swap');
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    background-image: url(/imgs/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    max-width: 100%;
+}
+.myHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    
+}
+.myul{
+    display: flex;
+    gap: 100px;
+    list-style: none;
+}
+.mylogo{
+    width: 10%;
+}
+.myform{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+}
+.mybtn{
+    background: none;
+    border:none;
+    height: 40px;
+}
+.mysearchimg{
+    height: 50px;
+    padding-right: 15px;
+    cursor: pointer;
+}
+.mylink{
+    text-decoration: none;
+    font-size:larger;
+    font-family: "Jockey One", serif;
+    text-shadow: 8px 10px 10px rgb(0, 0, 0);
+    color: rgb(249, 235, 235);
+    transition: 0.3s;
+}
+.mylink:hover{
+    box-shadow: 0px 0px 20px rgb(255, 255, 255);
+    background-color: red;
+    padding: 5px;
+    border-radius: 10px;
+    color: rgb(249, 235, 235);
+}
+.theInput{
+    height: 35px;
+    width: 200px;
+    border-radius: 15px;
+    background-color: rgb(198, 184, 184);
+    box-shadow: inset 5px 5px 5px rgb(82, 75, 75);
+    border: none;
+}
+input::placeholder{
+    color: black;
+    padding-left: 10px;
+}
+.recently{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 60px;
+}
+.recentlyImg{
+    max-width: 90%;
+}
+.contentImg{
+    height: 200px;
+    width: 150px;
+    
+}
+.stars{
+    width: 150px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(59, 2, 2);
+    padding-top: 20px;
+    border-radius: 30px 30px 30px 30px;
+    margin: 15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-shadow: 10px 10px 15px rgb(32, 32, 32);
+    transition: 0.4s;
+}
+.content:hover{
+    background-color: rgb(203, 9, 9);
+    box-shadow: 0px 0px 50px rgb(253, 253, 253);
+}
+.allcontent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.nameAndRating{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255, 237, 237);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    border-radius: 0px 0px 30px 30px ;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(59, 2, 2);
+    margin-top: 50px;
+    color: aliceblue;
+}
+.contentlink{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+@media screen {
+    
+}
