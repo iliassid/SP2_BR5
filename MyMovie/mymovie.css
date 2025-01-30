@@ -136,7 +136,93 @@ footer{
     text-decoration: none;
     color: rgb(0, 0, 0);
 }
+.inputField{
+    height: 50px;
+    width: 250px;
+    border-radius: 15px;
+    background-color: rgb(231, 215, 215);
+    box-shadow: inset 5px 5px 5px rgb(82, 75, 75);
+    border: none;
+}
+#image{
+    display: none;
+}
+#imgLable{
+    background-color: rgb(231, 215, 215);
+    box-shadow: inset 5px 5px 5px rgb(82, 75, 75);
+    border-radius: 15px;
+    height: 100px;
+    width: 100px;
+    padding: 20px;
+}
+.leftSide{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.inputContent{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 80px;
+}
 
-@media screen {
+#myForm {
+    height: 100px;
     
+}
+.mysecondbtn{
+    height: 50px;
+    width: 100px;
+    border-radius: 20px;
+    background-image: linear-gradient(to bottom, rgb(63, 4, 4), rgb(243, 13, 13));
+    color: aliceblue;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    box-shadow: 6px 6px 10px rgb(0, 0, 0);
+    transition: 0.3s;
+    
+}
+.mysecondbtn:hover{
+    height: 60px;
+    width: 120px;
+    box-shadow: 0px 0px 20px rgb(255, 255, 255);
+    
+}
+#textarea{
+    height: 300px;
+    width: 250px;
+    border-radius: 10px;
+     background-color: rgb(231, 215, 215);
+    box-shadow: inset 5px 5px 5px rgb(82, 75, 75);
+}
+#textarea::placeholder{
+    color: black;
+    padding-left: 10px;
+}
+.rightSide{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: end;
+}
+.EditBtns{
+    margin-top: 15px;
+    display: flex;
+    gap: 20px;
+}
+.edBtn{
+    height: 50px;
+    width: 100px;
+    border-radius: 20px;
+    background-image: linear-gradient(to bottom, rgb(63, 4, 4), rgb(243, 13, 13));
+    color: aliceblue;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    box-shadow: 6px 6px 10px rgb(0, 0, 0);
+    transition: 0.3s;
+}
+.edBtn:hover{
+     height: 60px;
+    width: 120px;
+    box-shadow: 0px 0px 20px rgb(255, 255, 255);
 }

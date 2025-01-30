@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/mymovie.css">
+</head>
+<body>
+    <header class="myHeader">
+        <img class="mylogo" src="/imgs/logo.svg" alt="">
+        <ul class="myul">
+            <li><a class="mylink" href="/mymovie.html">Home</a></li>
+            <li><a class="mylink" href="">Movies</a></li>
+            <li><a class="mylink" href="/add.html">Add & Edit</a></li>
+        </ul>
+        <form class="myform" action="">
+            <input class="theInput" type="text" placeholder="Search for a movie">
+            <button class="mybtn"><img class="mysearchimg" src="/imgs/search.svg" alt=""></button>
+        </form>
+    </header>
+    <div class="recently">
+        <img class="recentlyImg" src="/imgs/edit and add.svg" alt="">
+    </div>
+    <div class="inputContent">
+        <div class="leftSide">
+        <form action="">
+            <label for=""></label>
+            <input type="text" id="nameInput" class="inputField" placeholder="Name:">
+        </form>
+        <form action="">
+            <label for=""></label>
+            <input type="text" id="yearInput" class="inputField" placeholder="Year:">
+        </form>
+        <form action="">
+            <label for=""></label>
+            <input type="text" id="directorInput" class="inputField" placeholder="Director:">
+        </form>
+        <form action="">
+            <label for=""></label>
+            <input type="text" id="tailerInput" class="inputField" placeholder="Trailer Link">
+        </form>
+        <form action="">
+            <label for=""></label>
+            <input type="text" id="ratingInput" class="inputField" placeholder="rating ">
+        </form>
+        
+        <label for="status"></label>
+        <select name="" id="selectList" class="inputField">
+            <option value="select the status" disabled selected>select the status</option>
+            <option value="seen">seen</option>
+            <option value="seen">watch list</option>
+        </select>
+        <div>
+            <form id ="myForm" action="">
+            <label for="image" id="imgLable">image</label>
+            <input type="file"  id="image">
+        </form>
+        </div>
+        
+        </div>
+        <div class="rightSide">
+            <textarea name="" id="textarea" placeholder="description"></textarea>
+            <button class="mysecondbtn" id="submitBtn">Submit</button>
+        </div>
+    </div>
+    <div class="allcontent">
+        <a class="contentlink" href="">
+           <div class="content">
+          <img class="contentImg" src="/imgs/aot.jpg" alt="">
+          <div class="nameAndRating">
+            <h2>Attack on Titan</h2>
+            <img class="stars" src="/imgs/5 stars.svg" alt="">
+            <div class="EditBtns">
+            <button class="edBtn">Edit</button>
+            <button class="edBtn">Delete</button>
+            </div>
+          </div>
+        </div>
+      </a>
+     
+    </div>
+    <footer>
+        <p>© 2025  MyMovies. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
